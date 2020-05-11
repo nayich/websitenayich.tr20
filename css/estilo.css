@@ -1,0 +1,681 @@
+aside#menu-cortina {
+	width: 290px;
+    height: 100%;
+    display: none;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -290px;
+    z-index: 99999;
+    
+    background: rgba(0, 0, 0, 0.95);
+}
+
+aside#menu-cortina a {
+	width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+	transition: all 0.3s ease-in;
+  
+}
+aside#menu-cortina a i {
+	font-size: 1.35em;
+    padding: 10px 0 0 0;
+	transition: all 0.3s ease-in;
+}
+aside#menu-cortina a:hover {
+	background: #fff;
+	transition: all 0.3s ease-in;
+}
+aside#menu-cortina a:hover i {
+	color: #000;
+	transition: all 0.3s ease-in;
+}
+
+aside#menu-cortina a#abrir {
+	left: -50px;
+    color: #fff;
+    z-index: 10;
+    background: #09f;
+}
+aside#menu-cortina a#cerrar {
+	left: -50px;
+    color: #fff;
+    z-index: 9;
+    background: #09f;
+}
+
+aside#menu-cortina nav#menu-moviles {
+	width: 80%;
+    height: auto;
+    display: block;
+    margin: 12% 10% 10% 10%;
+    position: relative;
+    float: none;
+}
+aside#menu-cortina nav#menu-moviles a {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    position: relative;
+    float: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25em;
+}
+aside#menu-cortina nav#menu-moviles a:hover {
+	color: #000;
+}
+
+
+aside#insta {
+    width: 40px;            /*Anchura*/
+    height: 40px;          /*Altura máxima*/
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    bottom: 90px;
+    right: 40px;
+    
+    z-index: 9999;
+    
+}
+aside#insta a {
+    width: 100%;            /*Anchura*/
+    height: 100%;          /*Altura máxima*/
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 50%;
+    z-index: 9999;
+    text-decoration: none;
+    
+    transition: all 0.3s ease-in;
+    
+    
+    background: #b91f1f
+    
+} 
+aside#insta a:hover {
+    background: #fff;
+    transition: all 0.3s ease-in;
+    
+}
+aside#insta a i {
+    display: block;
+    font-size: 1.9em;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    
+}
+aside#insta a i:hover {
+    color: #b91f1f;
+    transition: all 0.3s ease-in;
+}
+
+
+aside#wpp {
+    width: 40px;            /*Anchura*/
+    height: 40px;          /*Altura máxima*/
+    display: block;
+    margin: 0;
+    float: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    
+    z-index: 9999;
+    
+}
+aside#wpp a {
+    width: 100%;            /*Anchura*/
+    height: 100%;          /*Altura máxima*/
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 50%;
+    z-index: 9999;
+    text-decoration: none;
+    
+    transition: all 0.3s ease-in;
+    
+    
+    background: #1e9a00
+    
+} 
+aside#wpp a:hover {
+    background: #fff;
+    transition: all 0.3s ease-in;
+    
+}
+aside#wpp a i {
+    display: block;
+    font-size: 1.9em;
+    text-align: center;
+    color: #fff;
+    padding: 5px;
+    
+}
+aside#wpp a i:hover {
+    color: #1e9a00;
+    transition: all 0.3s ease-in;
+}
+
+
+
+
+
+
+header {
+    width: 100%;            /*Anchura*/
+    height: 90px;          /*Altura máxima*/
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: fixed;
+    top: 0; 
+    left: 0;
+    z-index: 9999;
+    
+    background:#000;
+    background-size: cover;
+    }
+header article {
+    width: 100%;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background:rgba(0, 0, 0, 0.46)
+}
+header article a#logo {
+    width: 153px;
+    height: 60px;
+    display: block;
+    margin: 15px 10px 15px 10px;
+    float: left;
+    position: relative;
+}
+header article a#logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+header article nav#menu-principal {
+    width: 600px;
+    height: 60px;
+    display: block;
+    margin: 15px 0 15px 10px;
+    float: right;
+    position: relative;
+}
+header article nav#menu-principal a {
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.20em;
+    font-weight: 800;
+    padding: 16px 15px;
+    transition: all 0.1s ease-in;                       /* Propiedad que varía / Tiempo de transición / Efecto de Transición */
+}
+header article nav#menu-principal a:hover {
+    color: #4fc1ff;
+    border-bottom: solid 2px #2db4af;
+    transition: all 0.2s ease-in;
+}
+
+
+
+main {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 0;
+    
+}
+
+main section#fila-banner-foto{
+    width: 100%;
+    height: 800px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+     
+    background: url("../img/010.jpg") no-repeat top center;
+    background-size: cover;
+}
+main section#fila-banner-foto article{
+    width: 100%;
+    height: 800px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background:rgba(0, 0, 0, 0.46)
+}
+main section#fila-banner-foto article h1{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3.7em;
+    padding: 220px 0 10px 0;
+    margin: 0;
+    font-weight: 800;
+}
+main section#fila-banner-foto article p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5em;
+    padding: 0;
+    margin: 0;
+    font-weight:400; 
+}
+
+
+main section#fila-4-columnas { 
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+	background: #000;
+}
+main section#fila-4-columnas article {
+	width: 1200px;
+    height: 330px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 70px 0;
+}
+main section#fila-4-columnas article figure {
+	width: 270px;
+    height: 330px;
+    display: block;
+    margin: 75px 40px 75px 0;
+    float: left;
+    position: relative;
+}
+main section#fila-4-columnas article figure:nth-child(4) {
+	margin: 75px 0;
+}
+main section#fila-4-columnas article figure img {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    border-radius: 50%;
+}
+main section#fila-4-columnas article figure h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75em;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 15px 0 0 0;
+}
+
+
+main section#fila-2-fotos{
+    width: 100%;
+    height: 800px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 30px 0;
+    background: #000;
+}
+main section#fila-2-fotos article#foto-izquierda{
+   width: 50%;
+    height: 800px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+     
+    background: url("../img/009.jpg") no-repeat top center;
+    background-size: cover;
+}
+main section#fila-2-fotos article#foto-derecha{
+    width: 50%;
+    height: 800px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+     
+    background: url("../img/008.jpg") no-repeat top center;
+    background-size: cover;
+    
+}
+
+main section#fila-frase-larga{
+    width: 100%;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    background: #000;
+    
+}
+main section#fila-frase-larga article{
+    width: 1200px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    padding: 30px 0 0 0; 
+    
+}
+main section#fila-frase-larga article h4{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 10px 10px ;
+    margin: 0;
+    font-weight: 600; 
+}
+main section#fila-frase-larga article p{
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 10px ;
+    margin: 0;
+    font-weight: 400; 
+    
+}
+
+main section#fila-3-fotos{
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    background: #000;
+}
+main section#fila-3-fotos article#img-izquierda{
+    width: 33.3%;
+    height: 600px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    background: url("../img/006.jpg") no-repeat top center;
+    background-size: cover;
+}
+main section#fila-3-fotos article#img-centro{
+    width: 33.3%;
+    height: 600px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    background: url("../img/003.jpg") no-repeat top center;
+    background-size: cover;
+}
+main section#fila-3-fotos article#img-derecha{
+    width: 33.3%;
+    height: 600px;
+    display: block;
+    margin: 0;
+    float: left;
+    position: relative;
+    
+    background: url("../img/007.jpg") no-repeat top center;
+    background-size: cover;
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #000;
+    
+}
+
+footer a#logo{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+footer a#logo img{
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+
+
+
+
+    
+    
+
+
+/* Media Queries de CSS3 */
+
+/*
+3 Dimensiones del RWD
+- Desktop / Escritorio / TV     >= 1200px
+- Tablets                       < 1200px --- >= 500px
+- Móviles                       < 500px --- >= 340px
+*/
+
+
+@media only screen and (max-width: 1199px){
+    header {
+		height: 70px;
+	}
+	header article {
+		width: 90%;
+		height: 70px;
+	}
+	header article a#logo {
+		width: 126px;
+    	height: 50px;
+	}
+
+	header article nav#menu-principal {
+		display: none;
+	}
+	
+	
+	
+	aside#menu-cortina { display: block; }
+	
+	
+	
+	main section#banner-foto {
+        width: auto;
+		height: auto;
+	}
+	main section#banner-foto article {
+		width: 80%;
+		height: auto;
+	}
+	main section#banner-foto article h1 {
+		font-size: 2.9em;
+		padding: 150px 0 0 0;
+	}
+	main section#banner-foto article p {
+		padding: 25px 0 75px 0;
+	}
+	
+	
+	
+	main section#fila-4-columnas article {
+		width: 620px;
+		height: 700px;
+	}
+	main section#fila-4-columnas article figure {
+    	display: inline-block;
+    	margin: 0 20px 40px 20px;
+	}
+	main section#fila-4-columnas article figure:nth-child(4) {
+    	margin: 0 20px 40px 20px;
+	}
+    
+    
+    main section#fila-frase-larga {
+		height: auto;
+	}
+	main section#fila-frase-larga article {
+		width: 80%;
+		height: auto;
+	}
+	main section#fila-frase-larga article h4 {
+		font-size: 2.9em;
+		padding: 150px 0 0 0;
+	}
+	main section#fila-frase-larga article p {
+		padding: 25px 0 75px 0;
+	}
+}
+
+@media only screen and (max-width: 999px){
+    
+}
+
+@media only screen and (max-width: 899px){
+	main section#fila-3-fotos {
+		height: auto;
+	}
+	main section#fila-3-fotos article#img-izquierda {
+		width: 100%;
+		height: 280px;
+		margin: 20px auto 0 auto;
+		float: none;
+	}
+	main section#fila-3-fotos article#img-centro {
+		width: 100%;
+		height: 280px;
+		margin: 20px auto 0 auto;
+		float: none;
+	}
+	main section#fila-3-fotos article#img-derecha {
+		width: 100%;
+		height: 280px;
+		margin: 20px auto 0 auto;
+		float: none;
+	}
+    
+    main section#fila-2-fotos article#foto-izquierda{
+        width: 100%;
+		height: 280px;
+		margin: 20px auto 0 auto;
+		float: none;
+    }
+    
+    main section#fila-2-fotos article#foto-derecha{
+        width: 100%;
+		height: 280px;
+		margin: 20px auto 0 auto;
+		float: none;
+    }
+}
+	
+@media only screen and (max-width: 799px){
+	
+}
+	
+@media only screen and (max-width: 699px){
+    main section#fila-4-columnas article {
+    	width: 80%;
+    	height: auto;
+	}
+	main section#fila-4-columnas article figure {
+    	display: block;
+    	margin: 0 auto 40px auto;
+    	float: none;
+	}
+	main section#fila-4-columnas article figure:nth-child(4) {
+    	margin: 0 auto 40px auto;
+	}
+}
+
+@media only screen and (max-width: 599px){
+  
+	
+}
+
+@media only screen and (max-width: 499px){
+	main section#fila-4-columnas article figure {
+    	width: 100%;
+    	height: auto;
+	}
+}
+	
+@media only screen and (max-width: 449px){
+    
+}
+
+@media only screen and (max-width: 349px){
+    header article a#logo {
+    margin: 15px 10px 15px 0px;
+    }
+    
+    
+    
+}
+
+
